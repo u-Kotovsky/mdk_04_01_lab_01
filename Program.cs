@@ -33,6 +33,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
+// Endpoint that returns the message that was sent to it.
 app.MapGet("/echo", (string? message) => Results.Ok(new { message }))
    .WithName("Echo");
 
