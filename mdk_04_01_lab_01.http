@@ -1,0 +1,6 @@
+@mdk_04_01_lab_01_HostAddress = http://localhost:5277
+
+GET {{mdk_04_01_lab_01_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
